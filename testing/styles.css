@@ -89,7 +89,7 @@ body {
 }
 .navigation-checkbox:checked + label .navigation-icon1 {
   transform: rotate(45deg);
-  margin-top: 0.4em;
+  margin-top: 0.55em;
 }
 .navigation-checkbox:checked + label .navigation-icon2 {
   visibility: hidden;
@@ -688,7 +688,7 @@ div .cloud-image {
   }
   .navigation-list {
     position: absolute;
-
+    padding-left: 0;
     text-align: center;
     list-style: none;
   }
