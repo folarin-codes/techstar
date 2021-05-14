@@ -680,7 +680,9 @@ div .cloud-image {
 .footer-follow a:hover {
   color: var(--base-color);
 }
-
+.copyright {
+  display: none;
+}
 @media (max-width: 900px) {
   body {
     margin: 0;
@@ -832,7 +834,7 @@ div .cloud-image {
     margin: 0 auto;
   }
   .footer-logo p {
-    padding-left: 2.5em;
+    display: none;
   }
   .footer h1 {
     font-family: "lobster";
@@ -853,6 +855,10 @@ div .cloud-image {
   }
   .footer-list ul li {
     margin-bottom: 2em;
+  }
+   .copyright {
+    display: inline-block;
+    margin: 4em 25%;
   }
 }
 @media (max-width: 1800px) {
